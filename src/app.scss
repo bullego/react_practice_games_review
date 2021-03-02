@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	&::-webkit-scrollbar {
+		width: 0.5rem;
+	}
+	&::-webkit-scrollbar-thumb {
+		background-color: darkgrey;
+	}
+}
+
+body {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	padding: 1rem  0rem;
+	font-size: 1.3rem;
+}
+
+p {
+	font-size: 1.1rem;
+	line-height: 2;
+	color:rgb(87, 87, 87)
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+@import './components/Game/game';
+@import './components/GameDetails/game-details';
+@import './components/Navbar/navbar';
+@import './pages/HomePage/homepage';
